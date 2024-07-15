@@ -1,4 +1,6 @@
 extends ../layouts/default-layout.pug
+block vars 
+  - var currentPage = 'secondPage'
 block content
     p This is the second page
     a(href='index.html', class='button') Go back

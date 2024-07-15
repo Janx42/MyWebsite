@@ -1,12 +1,12 @@
 header
     ul.navbar
-        li 
-        a.navbarButtons(class=currentPage === 'home' ? 'navbarButtons active' : 'navbarButtons', href='index.html') Home
-         
-        a.navbarButtons(class=currentPage === 'secondpage' ? 'navbarButtons active' : 'navbarButtons', href='secondpage.html') Second Page
-         
-        a.navbarButtons(class=currentPage === 'thirdpage' ? 'navbarButtons active' : 'navbarButtons', href='third.html') Third Page
-         
-        a.navbarButtons(class=currentPage === 'fourthpage' ? 'navbarButtons active' : 'navbarButtons', href='fourth.html') Fourth Page
+        li(class=(currentPage === 'home' ? 'active' : ''))
+            a.navbarButtons(href='index.html') Home
+        li(class=(currentPage === 'secondPage' ? 'active' : ''))
+            a.navbarButtons(href='secondpage.html') Second Page
+        li(class=(currentPage === 'thirdpage' ? 'active' : ''))
+            a.navbarButtons(href='third.html') Third Page
+        li(class=(currentPage === 'fourthpage' ? 'active' : ''))
+            a.navbarButtons(href='fourth.html') Fourth Page
     
                 
