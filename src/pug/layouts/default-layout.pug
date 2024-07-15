@@ -1,6 +1,9 @@
 extends ../base/base.pug
-block layout
-  .app
-    include ../partials/header.pug
-    block content
-    include ../partials/footer.pug
+block layout 
+  #container
+    .app
+      // Set currentpage to home by default. This variable is modified on each page.
+      // This is done so the header knows what page we are on and can adjust accordingly.
+      include ../partials/header.pug
+      block content
+      include ../partials/footer.pug

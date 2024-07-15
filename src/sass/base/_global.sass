@@ -4,3 +4,37 @@ body
   padding: 0
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
+
+$textcolor: darkblue
+h1 
+  color: $textcolor
+
+p 
+  color: red
+
+#container 
+  max-width: 900px //So we can have empty space on the sides
+
+  margin: 0 auto
+  /* this centers the entire page */
+      
+// NAV BAR ------
+.navbar
+  list-style-type: none
+  margin: 5px
+  padding: 5px
+  display: flex
+  background-color: #e2ffca
+
+.navbarButtons
+  display: block
+  padding: 8px
+  margin: 5px
+  background-color: #c55d5d
+  flex-flow: flow
+  text-align: center
+
+.active
+  background-color: #04AA6D
+li a:hover //Highlight any link this colour when hovered, override if you want
+  background-color: #111
