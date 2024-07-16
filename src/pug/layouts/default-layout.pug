@@ -4,5 +4,10 @@ block layout
     .app
       block vars
       include ../partials/header.pug
-      block content
+      .gridContainer
+        #leftSidebar
+          block leftSidebar
+        #main
+          block content
+        
       include ../partials/footer.pug

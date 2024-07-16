@@ -1,13 +1,15 @@
 html,
 body {
   margin: 0;
-  padding: 0Mixins;
+  padding: 0;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  background-color: #be77f8;
 }
 
 h1 {
   color: darkblue;
+  text-align: center;
 }
 
 p {
@@ -17,7 +19,24 @@ p {
 #container {
   max-width: 900px;
   margin: 0 auto;
+  display: grid;
   /* this centers the entire page */
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+#leftSidebar {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+#main {
+  background-color: #ffffff;
+  padding: 10px;
 }
 
 .navbar {
@@ -27,7 +46,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #e2ffca;
+  background-color: #bffd8d;
 }
 
 .navbarButtons {
