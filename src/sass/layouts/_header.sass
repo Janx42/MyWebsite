@@ -1,3 +1,35 @@
-$textcolor: darkblue
-h1 
-    color: $textcolor
+//NAVBAR
+$defaultNavbarBackgroundColour: #AE94D4
+$defaultNavbarTextColour: #161154
+$defaultNavbarButtonBackgroundColour: #9994D4
+$defaultActivePageButtonHighlightColour: #D494A6
+// NAV BAR -------
+.navbar
+  list-style-type: none
+  margin: 20px
+  padding: 8px
+  border: 8px
+  border-style: outset
+  border-color: #541124
+
+  background-color: $defaultNavbarBackgroundColour
+  display: flex
+  
+
+.navbarButtons
+  display: block
+  padding: 8px
+  margin: 5px
+  background-color: $defaultNavbarButtonBackgroundColour
+  //text
+  color: $defaultNavbarTextColour
+  text-decoration-line: overline underline
+  text-decoration-color: purple
+
+  flex-flow: flow
+  text-align: center
+
+.active
+  background-color: $defaultActivePageButtonHighlightColour
+li a:hover //Highlight any link this colour when hovered, override if you want
+  background-color: $defaultButtonHoverColour

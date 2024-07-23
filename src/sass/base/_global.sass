@@ -1,5 +1,3 @@
-$currentPage: index
-$defaultBackgroundColour: #be77f8 
 html,
 body
   margin: 0
@@ -9,14 +7,14 @@ body
 
   background-color: $defaultBackgroundColour
 
-$textcolor: darkblue
+// TEXT
 h1 
-  color: $textcolor
+  color: #9994D5
   text-align: center
-
 p 
-  color: red
+  color: $defaultParagraphTextColour
 
+// ORDERING
 #container 
   max-width: 900px //So we can have empty space on the sides
   margin: 0 auto
@@ -28,31 +26,27 @@ p
   grid-template-columns: 1fr 3fr // Adjust the column widths as needed */
   gap: 20px // Space between columns */
 
-// ORDERING -------
+// CONTENT -------
 #leftSidebar
-  background-color: #f0f0f0 // Example styling */
+  background-color: $defaultContentBackgroundColour // Example styling */
   padding: 10px
+  margin: 20px
+  border: 4px
+  border-style: dashed
+  border-top-style: double
+  border-block-color: #D494A6
+  border-left-color: #9994D4
+  border-right-color: #9994D4
+  border-bottom-color: #9994D4
+  
 #main
-  background-color: #ffffff
+  background-color: $defaultContentBackgroundColour
   padding: 10px
-
-// NAV BAR -------
-.navbar
-  list-style-type: none
-  margin: 5px
-  padding: 5px
-  display: flex
-  background-color: #bffd8d
-
-.navbarButtons
-  display: block
-  padding: 8px
-  margin: 5px
-  background-color: #c55d5d
-  flex-flow: flow
-  text-align: center
-
-.active
-  background-color: #04AA6D
-li a:hover //Highlight any link this colour when hovered, override if you want
-  background-color: #111
+  margin: 10px
+  border: 4px
+  border-style: dashed
+  border-top-style: double
+  border-block-color: #D494A6
+  border-left-color: #D494CD
+  border-right-color: #D494CD
+  border-bottom-color: #D494CD

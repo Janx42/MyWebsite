@@ -4,16 +4,16 @@ body {
   padding: 0;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: #be77f8;
+  background-color: #421154;
 }
 
 h1 {
-  color: darkblue;
+  color: #9994D5;
   text-align: center;
 }
 
 p {
-  color: red;
+  color: #AE94D4;
 }
 
 #container {
@@ -30,30 +30,54 @@ p {
 }
 
 #leftSidebar {
-  background-color: #f0f0f0;
+  background-color: #54114D;
   padding: 10px;
+  margin: 20px;
+  border: 4px;
+  border-style: dashed;
+  border-top-style: double;
+  border-block-color: #D494A6;
+  border-left-color: #9994D4;
+  border-right-color: #9994D4;
+  border-bottom-color: #9994D4;
 }
 
 #main {
-  background-color: #ffffff;
+  background-color: #54114D;
   padding: 10px;
+  margin: 10px;
+  border: 4px;
+  border-style: dashed;
+  border-top-style: double;
+  border-block-color: #D494A6;
+  border-left-color: #D494CD;
+  border-right-color: #D494CD;
+  border-bottom-color: #D494CD;
 }
 
 .navbar {
   list-style-type: none;
-  margin: 5px;
-  padding: 5px;
+  margin: 20px;
+  padding: 8px;
+  border: 8px;
+  border-style: outset;
+  border-color: #541124;
+  background-color: #AE94D4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #bffd8d;
 }
 
 .navbarButtons {
   display: block;
   padding: 8px;
   margin: 5px;
-  background-color: #c55d5d;
+  background-color: #9994D4;
+  color: #161154;
+  -webkit-text-decoration-line: overline underline;
+  text-decoration-line: overline underline;
+  -webkit-text-decoration-color: purple;
+  text-decoration-color: purple;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-flow: flow;
@@ -62,13 +86,9 @@ p {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #D494A6;
 }
 
 li a:hover {
-  background-color: #111;
-}
-
-h1 {
-  color: darkblue;
+  background-color: #005a0c;
 }
