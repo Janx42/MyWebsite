@@ -7,6 +7,8 @@ var gulp    = require('gulp'),
     uglify  = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer');
 
+//var mysql = require('mysql'); //Might nto b needed
+
 function reload(done) {
   connect.server({
     livereload: true,

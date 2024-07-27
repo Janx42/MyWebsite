@@ -21,6 +21,9 @@
     "sass": "^1.77.8"
   },
   "dependencies": {
-    "gulp-cli": "^3.0.0"
+    "dotenv": "^16.4.5",
+    "gulp-cli": "^3.0.0",
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.1.7"
   }
 }
